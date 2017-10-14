@@ -1,0 +1,28 @@
+/*  Back Top Button  */
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right:100px;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+  a {
+    width: 54px;
+    height: 54px;
+    display: block;
+    background: #ddd  no-repeat center center;
+    background-color: #aaa;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+  a:hover {
+    background-color: #777;
+  }
+  &.fadeIn{
+    opacity: 1
+
+  }
+}

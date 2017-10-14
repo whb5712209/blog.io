@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>隔壁老王</title>
-    <description>隔壁老王|保持输出·方证所学</description>
-    <link>http://cnfeat/</link>
-    <atom:link href="http://cnfeat/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Oct 2017 16:14:44 +0800</pubDate>
-    <lastBuildDate>Sat, 14 Oct 2017 16:14:44 +0800</lastBuildDate>
+    <title>子莫首</title>
+    <description>子莫首|从入门到放弃</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 15 Oct 2017 05:32:38 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Oct 2017 05:32:38 +0800</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -19,6 +19,9 @@
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+&lt;p&gt;graph LR
+    id1[This is the text in the box]&lt;/p&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;转换
  1字节（Byte）= 8位（bit）
  1千字节（KB,Kilobyte）=1024字节（2的10次方字节）（1KB=1024B）
@@ -42,6 +45,9 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;比特(bit):二进制的一位,是二进制最小信息单位!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
   &lt;ol&gt;
     &lt;li&gt;如二进制数0101就是4比特&lt;/li&gt;
   &lt;/ol&gt;
@@ -76,8 +82,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 14 Oct 2017 13:21:17 +0800</pubDate>
-        <link>http://cnfeat/blog/2017/10/14/computer-base/</link>
-        <guid isPermaLink="true">http://cnfeat/blog/2017/10/14/computer-base/</guid>
+        <link>http://localhost:4000/blog/2017/10/14/computer-base/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/10/14/computer-base/</guid>
         
         <category>计算机</category>
         
@@ -371,8 +377,8 @@
 &lt;p&gt;http://t.cn/RwYcbCP&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0800</pubDate>
-        <link>http://cnfeat/blog/2015/03/02/how-to-write/</link>
-        <guid isPermaLink="true">http://cnfeat/blog/2015/03/02/how-to-write/</guid>
+        <link>http://localhost:4000/blog/2015/03/02/how-to-write/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/03/02/how-to-write/</guid>
         
         <category>总结</category>
         

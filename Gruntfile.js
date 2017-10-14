@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-
+    console.log(grunt.file.readJSON('package.json'))
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -10,24 +10,30 @@ module.exports = function(grunt) {
             }
         },
         less: {
-            expanded: {
-                options: {
-                    paths: ["css"]
-                },
-                files: {
-                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
-                }
-            },
-            minified: {
-                options: {
-                    paths: ["css"],
-                    cleancss: true
-                },
-                files: {
-                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
-                }
-            }
+            files: [
+{
+    // files: {
+    //   'path/to/result.css': 'path/to/source.less'
+    // }
+    expand: true,
+    cwd:'less/',
+    src:'*.less',
+    dest:'css',
+    rename:function(dest,src){
+      if(src){
+        grunt.log.writeln('参数1:'+dest+',参数2:'+src)
+        var fileName = src.substring(0,src.lastIndexOf('.'));
+        var fileResult =  fileName+'.css'
+        grunt.log.writeln('原来文件名:'+src+',现在文件名:'+fileResult)
+        return fileResult
+      }else{
+        return 'weimingm';
+      }
+  }
+}
+]
         },
+
         banner: '/*!\n' +
             ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
@@ -69,6 +75,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('default', ['uglify', 'less','watch']);
+
 
 };

@@ -1,5 +1,5 @@
-@import "variables.less";
-@import "mixins.less";
+@import "./lib/variables.less";
+@import "./lib/mixins.less";
 
 // Global Components
 
@@ -83,7 +83,7 @@ hr.small {
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: white;
+			color: #404040;
 			padding: 20px;
 			&:hover,
 			&:focus {
@@ -93,7 +93,7 @@ hr.small {
 		.nav {
 			li {
 				a {
-					color: white;
+					color: #404040;
 					padding: 20px;
 					&:hover,
 					&:focus {
@@ -461,3 +461,68 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: @brand-primary;
 }
+.navbar-custom.is-fixed .navbar-brand.a{
+	color: #404040;
+}
+.navbar-custom .navbar-brand.a{
+	color: #404040;
+}
+body {
+  webkit-tap-highlight-color: #00c9d7;
+}
+
+.navbar-fixed-top{
+	background: rgba(246, 246, 246,0.8);
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.listing{
+  list-style: none
+}
+.listing .listing-seperator{
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 22px;
+  border-bottom: 1px
+}
+.listing .listing-seperator:first-child{
+  margin-top: 0px;
+  border-top:none;
+}
+.listing .listing-item{
+  color: #198be5;
+}
+.listing .listing-item a{
+  color: #076dd0;
+}
+.listing .listing-item .list-title{
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.header-about{
+  background: #208b5b
+}
+.header-archive{
+  background: #e58171
+}
+.header-index{
+  color: #395692
+}
+.header-error{
+  color: red
+}
+.header-milestone{
+  color: #13b4ad
+}
+.friendship-href{
+  color: #333;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 25px;
+
+}
+/*  Back Top Button  End */

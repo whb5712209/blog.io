@@ -1,8 +1,8 @@
 # Site settings
-title: 隔壁老王
-header-img: "img/green.jpg"
+title: 子莫首
+header-class: 'header-index'
 tagline: "cn"
-description: "隔壁老王|保持输出·方证所学"
+description: "子莫首|从入门到放弃"
 baseurl: ""
 url: "http://cnfeat"
 
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "post"
       author: "CnFeat"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-class: 'header-index'
 
 # Comments
 comments :
