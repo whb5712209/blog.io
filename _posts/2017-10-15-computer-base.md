@@ -2,14 +2,15 @@
 layout: post
 title:  "计算机基础!"
 date:   2017-10-14 13:21:17 +0800
-categories: jekyll update
+tags: [计算机,基础]
+categories: blog
 ---
 # 进制之问
 
 ```
 graph LR
-  比特-- 8 --> 字节;
-  字节-- 8 -->字符;
+  比特 -- 8 --> 字节;
+  字节 -- 8 -->字符;
 
 ```
 ```

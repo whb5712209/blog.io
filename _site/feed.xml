@@ -3,10 +3,10 @@
   <channel>
     <title>隔壁老王</title>
     <description>隔壁老王|保持输出·方证所学</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Oct 2017 15:50:40 +0800</pubDate>
-    <lastBuildDate>Sat, 14 Oct 2017 15:50:40 +0800</lastBuildDate>
+    <link>http://cnfeat/</link>
+    <atom:link href="http://cnfeat/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 14 Oct 2017 16:14:44 +0800</pubDate>
+    <lastBuildDate>Sat, 14 Oct 2017 16:14:44 +0800</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;h1 id=&quot;进制之问&quot;&gt;进制之问&lt;/h1&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;graph LR
-  比特-- 8 --&amp;gt; 字节;
-  字节-- 8 --&amp;gt;字符;
+  比特 -- 8 --&amp;gt; 字节;
+  字节 -- 8 --&amp;gt;字符;
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -76,13 +76,15 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 14 Oct 2017 13:21:17 +0800</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</guid>
+        <link>http://cnfeat/blog/2017/10/14/computer-base/</link>
+        <guid isPermaLink="true">http://cnfeat/blog/2017/10/14/computer-base/</guid>
+        
+        <category>计算机</category>
+        
+        <category>基础</category>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>blog</category>
         
       </item>
     
@@ -369,8 +371,8 @@
 &lt;p&gt;http://t.cn/RwYcbCP&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2015/03/02/how-to-write/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/03/02/how-to-write/</guid>
+        <link>http://cnfeat/blog/2015/03/02/how-to-write/</link>
+        <guid isPermaLink="true">http://cnfeat/blog/2015/03/02/how-to-write/</guid>
         
         <category>总结</category>
         
